@@ -22,4 +22,5 @@ db_cursor.execute("select * from TestDatabase.Coins")
 for data in db_cursor.fetchall():
     print(data)
 
+mydb.close()
 

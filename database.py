@@ -19,4 +19,6 @@ db_cursor.execute("create database TestDatabase")
 
  
 
+mydb.close()
+
 

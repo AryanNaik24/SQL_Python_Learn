@@ -25,3 +25,4 @@ for i in db_cursor:
 
 print("created table")
 
+mydb.close()

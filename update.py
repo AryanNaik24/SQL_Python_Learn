@@ -28,3 +28,5 @@ db_cursor.execute(db_update,db_value)
 mydb.commit()
 
 print("updated")
+
+mydb.close()

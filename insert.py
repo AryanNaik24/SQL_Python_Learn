@@ -26,3 +26,5 @@ db_cursor.executemany(db_insert,db_list)
 #commits the changes
 mydb.commit()
 print(db_cursor.rowcount,"record inserted")
+
+mydb.close()

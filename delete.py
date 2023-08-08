@@ -28,3 +28,5 @@ db_cursor.execute(db_delete,db_value)
 mydb.commit()
 
 print(db_cursor.rowcount,"record deleted")
+
+mydb.close()

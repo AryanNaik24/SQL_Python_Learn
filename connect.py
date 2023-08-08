@@ -16,3 +16,4 @@ mydb = myConn.connect(host = "localhost",user = "root",password = password)
              
 print(mydb,"connection established")
 
+mydb.close()
